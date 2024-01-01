@@ -8,7 +8,7 @@ import pickle
 
 st.set_page_config(
     page_title="E-Cigarrete Use Prediction App",
-    page_icon="data/favicon.png",
+    page_icon="favicon.png",
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={'About': "This is an E-Cigarrete Use Prediction App!"}
@@ -27,7 +27,7 @@ st.divider()
 ####################################################################################### Load Model and Coded-data ############################################################################################## 
 
 try:
-  with open("data/rfc.pkl", mode="rb") as infile1, open("data/codified_imput.json", mode="rt") as infile2:
+  with open("rfc.pkl", mode="rb") as infile1, open("codified_imput.json", mode="rt") as infile2:
     rfc = pickle.load(infile1)
     coded_data = json.load(infile2)
 except:
@@ -114,6 +114,6 @@ with col3:
 
 st.divider()
 
-st.image("data/model_AUC.png")
+st.image("model_AUC.png")
 
 st.divider()
