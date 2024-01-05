@@ -18,4 +18,5 @@ prediction of e-cigarette use. In logistic regression, `highest_education_grade_
 `country_of_birth`, `marital_status`, `veteran_status`, and `gender` were significant predictors. 
 Upon model building, the `AUC` was roughly average because of class imbalance, as the positive clsass was 
 was `199` as against `12465`. We applied `ADASYN`, a synthetic oversampling techniques. By incorporating `ADASYN`, and Random forest algorithms, the model's capacity to capture minority class was improved.    
+***    
 ***
