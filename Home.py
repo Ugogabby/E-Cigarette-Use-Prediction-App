@@ -15,7 +15,7 @@ st.set_page_config(
 )
 
 st.write(
-  """## :blue[Welcome to the E-Cigarrete Use Prediction App]
+  """## :blue[Welcome to the E-Cigarette Use Prediction App]
 
   **This server implements the :rainbow[Random Forest Model] for predicting the potential of E-cigarette use among veterans and Non-Veterans in the US.  
     The data for the model training was obtained from the publicly Available _US NHANES_.**
