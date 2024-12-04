@@ -22,6 +22,14 @@ st.write(
   """
 )
 
+st.markdown(
+    """ 
+    <p style="text-align: center;"><span style="color:Orange;font-weight:bold;">Ugochukwu Ezigbo, MHA</span>
+    <p style="text-align: center;"><span style="color:violet;font-weight:bold;">PhD Student, University of Pittsburgh</span>
+
+    """, unsafe_allow_html=True
+)
+
 st.divider()
 
 ####################################################################################### Load Model and Coded-data ############################################################################################## 
