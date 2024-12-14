@@ -14,6 +14,7 @@ st.set_page_config(
     menu_items={'About': "This is an E-Cigarrete Use Prediction App!"}
 )
 
+
 st.write(
   """## :blue[Welcome to the E-Cigarette Use Prediction App]
 
